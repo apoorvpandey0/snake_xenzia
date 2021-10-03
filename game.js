@@ -227,7 +227,7 @@ function init() {
     width = tileSize * Math.floor(window.innerWidth / tileSize);
     height = tileSize * Math.floor(window.innerHeight / tileSize);;
 
-    fps = 130;
+    fps = 20;
 
     canvas = document.getElementById("game-area");
     canvas.width = width;
